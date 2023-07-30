@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    padding: 20px;
+    width: 66px;
+    margin: 0 3px;
+    border: 4px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: aliceblue;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    width: 230px;
+    margin:0;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+@media screen and (min-width:400px) and (max-width:900px){
+    .button{
+        background-color: aqua;
+    }
+    
+}
