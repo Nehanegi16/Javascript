@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    margin: 300px 50px 200px 800px;
+    background-color: antiquewhite;
+}
+div{
+   
+    padding: 10px;
+}
+button{
+    font-size: 20px;
+    margin: 45px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: darkgray;
+}
