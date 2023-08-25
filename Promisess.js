@@ -9,8 +9,8 @@ let p=new Promise((res,rej)=>{
 })
 p
 .then(()=>{
-    console.log("o yes")
+    console.log("Great!👍")
 })
-.catch(()=>{
+.catch(()=>{ 
     console.log("oops some thik wrong")
 })
